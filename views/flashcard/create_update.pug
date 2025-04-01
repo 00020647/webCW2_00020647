@@ -1,0 +1,32 @@
+extends ../head.pug
+
+block content
+  .container.mt-4
+    - var formAction = flashcard && flashcard.id ? `/api/flashcard/update/${flashcard.id}` : '/api/flashcard/create'
+    - var formTitle = flashcard && flashcard.id ? 'Update flashcard' : 'Create flashcard'
+    // Determine field values
+    - var sPhrase = flashcard ? (flashcard.flashcard ? flashcard.flashcard.phrase : flashcard.phrase) : ''
+    - var sTranslation = flashcard ? (flashcard.flashcard ? flashcard.flashcard.translation : flashcard.translation) : ''
+    - var sCategory = flashcard ? (flashcard.flashcard ? flashcard.flashcard.category : flashcard.category) : ''
+    h1.mb-4= formTitle
+
+    // Display validation errors, if any
+    if errors && errors.length
+      .alert.alert-danger
+        ul
+          each err in errors
+            li #{err.msg}
+
+    form(method="post", action=formAction)
+      if flashcard && flashcard.id
+        input(type="hidden", name="id", value=flashcard.id)
+      .form-group.custom-table-margin
+        label(for="phrase") Phrase
+        input.form-control(type="text", name="phrase", id="phrase", value=sPhrase, placeholder="Enter phrase")
+      .form-group.custom-table-margin
+        label(for="translation") Translation
+        input.form-control(type="text", name="translation", id="translation", value=sTranslation, placeholder="Enter translation")
+      .form-group.custom-table-margin
+        label(for="category") Category
+        input.form-control(type="text", name="category", id="category", value=sCategory, placeholder="Enter category number")
+      button.btn.btn-success(type="submit") Submit

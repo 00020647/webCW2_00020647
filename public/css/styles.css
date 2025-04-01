@@ -1,0 +1,11 @@
+.custom-button-padding {
+    padding: 0.5rem 1rem; /* Adds 10px vertical and 15px horizontal padding */
+  }
+  
+.custom-table-margin {
+    margin-bottom: 1rem; /* Adds 15px padding to the table */
+  }
+
+.id-text-color {
+    color: gray !important;
+}
