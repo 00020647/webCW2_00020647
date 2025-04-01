@@ -22,4 +22,4 @@ block content
             td
               a.btn.btn-primary.btn-sm.mr-2.custom-button-padding(href=`/flashcard/update/${flashcard.id}`) Update
               span &nbsp;
-              a.btn.btn-danger.btn-sm.custom-button-padding(href=`/api/flashcard/delete/${flashcard.id}`) Delete
+              a.btn.btn-danger.btn-sm.custom-button-padding(href=`/api/flashcard/delete/${flashcard.id}`, onclick="return confirm('Are you sure you want to delete this flashcard?')") Delete
