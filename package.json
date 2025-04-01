@@ -1,5 +1,5 @@
 {
-  "name": "CW2_00020647",
+  "name": "cw2_00020647",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,13 @@
     "pug": "^3.0.3"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00020647/webCW2_00020647.git"
+  },
+  "bugs": {
+    "url": "https://github.com/00020647/webCW2_00020647/issues"
+  },
+  "homepage": "https://github.com/00020647/webCW2_00020647#readme"
 }
