@@ -17,7 +17,7 @@
     "pug": "^3.0.3"
   },
   "devDependencies": {},
-  "description": "",
+  "description": "This is a web application to learn languages by creating and using flashcards. The application demonstrates CRUD(create, read, update, delete) functionality and form validation using Express Validator.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/00020647/webCW2_00020647.git"
