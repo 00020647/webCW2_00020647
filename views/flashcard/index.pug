@@ -22,4 +22,4 @@ block content
             td.actions-column
               a.update-button(href=`/flashcard/update/${flashcard.id}`) Update
               span &nbsp;
-              a.delete-button(href=`/api/flashcard/delete/${flashcard.id}`, onclick="return confirm('Are you sure you want to delete this flashcard?')") Delete
+              a.delete-button.delete-link(href=`/api/flashcard/delete/${flashcard.id}`) Delete
