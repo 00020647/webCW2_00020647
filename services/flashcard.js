@@ -1,10 +1,15 @@
+//Operations with JSON file
 const fs = require('fs');
+
+// Importing the path module to work with file paths
 const path = require('path');
 
+// Path to the mock database file
 if (!global.mock_db) {
   global.mock_db = path.join(__dirname, '../data', 'mock_db.json');
 }
 
+// Flashcard data
 const flashcards = require(global.mock_db);
 
 const flashcardService = {
