@@ -6,15 +6,22 @@ Server-side routing: Handled by Express.js.
 Template rendering: Using Pug.
 Input validation: With express-validator.
 
-Dependencies used:
+<bold>Dependencies used:</bold>
+<br>
 "body-parser": "^1.20.3",
+<br>
 "express": "^4.21.2",
+<br>
 "express-validator": "^7.2.1",
+<br>
 "nodemon": "^3.1.9",
+<br>
 "pug": "^3.0.3"
 
-To start the project:
-
+<bold>To start the project:</bold>
+<br>
 npm init -y
+<br>
 npm install
+<br>
 npm start
