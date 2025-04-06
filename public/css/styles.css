@@ -1,11 +1,65 @@
-.custom-button-padding {
-    padding: 0.5rem 1rem; /* Adds 10px vertical and 15px horizontal padding */
-  }
-  
-.custom-table-margin {
-    margin-bottom: 1rem; /* Adds 15px padding to the table */
-  }
+.container {
+  margin-top: 20px;
+  padding: 20px;
+}
 
-.id-text-color {
-    color: gray !important;
+.flashcard-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.create-button {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.create-button:hover {
+  background-color: #218838;
+}
+
+.flashcard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flashcard-table th,
+.flashcard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.flashcard-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.update-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
 }

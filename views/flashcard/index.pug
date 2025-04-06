@@ -1,25 +1,25 @@
 extends ../head.pug
 
 block content
-  .container.mt-4.custom-padding
-    h1.mb-4 Flashcard List
-    a.btn.btn-success.mb-3.custom-button-padding(href="/flashcard/create") Create New Flashcard
-    table.table.table-striped
+  .container
+    h1.flashcard-title Flashcard List
+    a.create-button(href="/flashcard/create") Create New Flashcard
+    table.flashcard-table
       thead
         tr
-          th.id-text-color ID
-          th Phrase
-          th Translation
-          th Category
-          th Actions
+          th.id-column ID
+          th.phrase-column Phrase
+          th.translation-column Translation
+          th.category-column Category
+          th.actions-column Actions
       tbody
         each flashcard in flashcards
           tr
-            td.id-text-color= flashcard.id
-            td= flashcard.flashcard.phrase
-            td= flashcard.flashcard.translation
-            td= flashcard.flashcard.category
-            td
-              a.btn.btn-primary.btn-sm.mr-2.custom-button-padding(href=`/flashcard/update/${flashcard.id}`) Update
+            td.id-column= flashcard.id
+            td.phrase-column= flashcard.flashcard.phrase
+            td.translation-column= flashcard.flashcard.translation
+            td.category-column= flashcard.flashcard.category
+            td.actions-column
+              a.update-button(href=`/flashcard/update/${flashcard.id}`) Update
               span &nbsp;
-              a.btn.btn-danger.btn-sm.custom-button-padding(href=`/api/flashcard/delete/${flashcard.id}`, onclick="return confirm('Are you sure you want to delete this flashcard?')") Delete
+              a.delete-button(href=`/api/flashcard/delete/${flashcard.id}`, onclick="return confirm('Are you sure you want to delete this flashcard?')") Delete
