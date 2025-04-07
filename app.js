@@ -32,6 +32,10 @@ app.use('/', webRoutes)
 //Starting the server
 const port = process.env.PORT || 3000;
 
+app.get('/', (req, res) => {
+    res.redirect('/flashcard');
+  });
+  
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
