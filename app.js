@@ -5,8 +5,6 @@ const path = require('path')
 const apiRoutes = require('./routes/api')
 const webRoutes = require('./routes/web')
 
-const port = 3000
-
 const app = express()
 
 //Defining the path to the mock database
@@ -32,6 +30,9 @@ app.use('/api', apiRoutes)
 app.use('/', webRoutes)
 
 //Starting the server
-app.listen(port, ()=>{
-    console.log(`server running at http://localhost:${port}/flashcard`)
-})
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
+
