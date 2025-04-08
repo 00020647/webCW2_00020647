@@ -7,9 +7,9 @@ Template rendering: Using Pug.
 Input validation: With express-validator.
 
 <br> 
-Link to the web-application: https://webcw200020647-production.up.railway.app
+<b>Link to the web-application: https://webcw200020647-production.up.railway.app</b>
 <br>
-<bold>Dependencies used:</bold>
+<b>Dependencies used:</b>
 <br>
 "body-parser": "^1.20.3",
 <br>
@@ -21,7 +21,9 @@ Link to the web-application: https://webcw200020647-production.up.railway.app
 <br>
 "pug": "^3.0.3"
 
-<bold>To start the project:</bold>
+<br>
+<br>
+<b>To start the project:</b>
 <br>
 npm init -y
 <br>
