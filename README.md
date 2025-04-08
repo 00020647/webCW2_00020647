@@ -6,6 +6,9 @@ Server-side routing: Handled by Express.js.
 Template rendering: Using Pug.
 Input validation: With express-validator.
 
+<br> 
+Link to the web-application: https://webcw200020647-production.up.railway.app
+<br>
 <bold>Dependencies used:</bold>
 <br>
 "body-parser": "^1.20.3",
