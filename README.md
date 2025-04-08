@@ -11,7 +11,7 @@ Input validation: With express-validator.
 <br>
 
 <br> 
-<b></b>Link to the GitHub repository: https://github.com/00020647/webCW2_00020647.git</b>
+<b>Link to the GitHub repository: https://github.com/00020647/webCW2_00020647.git</b>
 <br>
 
 <b>Dependencies used:</b>
