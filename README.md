@@ -7,7 +7,7 @@ Template rendering: Using Pug.
 Input validation: With express-validator.
 
 <br> 
-<b>Link to the web-application: https://webcw200020647-production.up.railway.app</b>
+<b>Link to the web-application: https://webcw200020647-production.up.railway.app </b>
 <br>
 
 <br> 
