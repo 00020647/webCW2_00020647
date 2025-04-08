@@ -9,6 +9,11 @@ Input validation: With express-validator.
 <br> 
 <b>Link to the web-application: https://webcw200020647-production.up.railway.app</b>
 <br>
+
+<br> 
+<b></b>Link to the GitHub repository: https://github.com/00020647/webCW2_00020647.git</b>
+<br>
+
 <b>Dependencies used:</b>
 <br>
 "body-parser": "^1.20.3",
