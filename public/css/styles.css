@@ -63,3 +63,12 @@
 .delete-button:hover {
   background-color: #c82333;
 }
+
+.disclaimer {
+  font-size: 24px;
+  color: #c82333;
+}
+.studentId{
+  font-size: 14px;
+  color: #000;
+}
