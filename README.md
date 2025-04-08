@@ -13,7 +13,7 @@ Input validation: With express-validator.
 <br> 
 <b>Link to the GitHub repository: https://github.com/00020647/webCW2_00020647.git</b>
 <br>
-
+<br>
 <b>Dependencies used:</b>
 <br>
 "body-parser": "^1.20.3",
@@ -25,7 +25,6 @@ Input validation: With express-validator.
 "nodemon": "^3.1.9",
 <br>
 "pug": "^3.0.3"
-
 <br>
 <br>
 <b>To start the project:</b>
